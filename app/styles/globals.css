@@ -1,0 +1,34 @@
+html,
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.model-viewer-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.modelViewer {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.annotations {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
